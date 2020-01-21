@@ -4,4 +4,5 @@
 <dict>
 	<key>com.apple.developer.healthkit</key>
 	<true/>
-	<key>com.apple.developer.healthkit.acce
+	<key>com.apple.developer.healthkit.access</key>
+	<arr
