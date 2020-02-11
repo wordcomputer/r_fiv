@@ -39,3 +39,34 @@ extension ViewController {
             context = LAContext()
             
 //            context.localizedCancelTitle = "Enter Username/Password"
+            
+            // First check if we have the needed hardware support.
+            var error: NSError?
+            if context.canEvaluatePolicy(.deviceOwnerAuthentication, error: &error) {
+                
+                let reason = "Log in to your account"
+                context.evaluatePolicy(.deviceOwnerAuthentication, localizedReason: reason ) { success, error in
+                    
+                    if success {
+                        
+                        // Move to the main thread because a state update triggers UI changes.
+                        DispatchQueue.main.async { [unowned self] in
+                            self.state = .loggedin
+//                            self.play()
+                        }
+                        
+                    } else {
+                        print(error?.localizedDescription ?? "Failed to authenticate")
+                        
+                        // Fall back to a asking for username and password.
+                        // ...
+                    }
+                }
+            } else {
+                print(error?.localizedDescription ?? "Can't evaluate policy")
+                
+                // Fall back to a asking for username and password.
+                // ...
+            }
+        }
+    }
