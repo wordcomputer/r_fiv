@@ -47,3 +47,31 @@ class GameOverViewController: UIViewController, HealthKitDelegate {
         scoreLabelOutlet.layer.borderWidth = 20
         scoreLabelOutlet.layer.borderColor = #colorLiteral(red: 0.8, green: 0.2470588235, blue: 0.003921568627, alpha: 1)
         scoreLabelOutlet.font = UIFont(name: "04b_19", size: 90)
+        closeButtonOutlet.titleLabel?.font = UIFont(name: "04b_19", size: 40)
+    }
+    
+    func authorizeHealthKit(){
+        healthKit.authorizeHealthKit { (authorized, error) in
+            
+            guard authorized else {
+                
+                let baseMessage = "HealthKit Authorization Failed"
+                
+                if let error = error {
+                    print("\(baseMessage). Reason: \(error.localizedDescription)")
+                } else {
+                    print(baseMessage)
+                }
+                
+                return
+            }
+            
+            print("HealthKit Successfully Authorized.")
+            self.healthKit.loadHealthData()
+        }
+    }
+    
+    func caloryCount(){
+        print(healthKit.weight, healthKit.height)
+        let weight = healthKit.weight
+        let height = healthKit.height
