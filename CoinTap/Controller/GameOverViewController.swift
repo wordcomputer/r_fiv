@@ -75,3 +75,24 @@ class GameOverViewController: UIViewController, HealthKitDelegate {
         print(healthKit.weight, healthKit.height)
         let weight = healthKit.weight
         let height = healthKit.height
+        let caloryCoeff = [0.0006, 0.00055, 0.0005]
+        if height > 1.80 {
+            calories = caloryCoeff[0] * weight * Double(step)
+        } else if height > 1.70 {
+            calories = caloryCoeff[1] * weight * Double(step)
+        }else {
+            calories = caloryCoeff[2] * weight * Double(step)
+        }
+        
+        setupStepWithCalories()
+    }
+    
+    
+    @IBAction func closeButtonDownAction(_ sender: Any) {
+        let haptic = UINotificationFeedbackGenerator()
+        haptic.notificationOccurred(.success)
+    }
+    @IBAction func closeButtonAction(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
+    }
+    /*
