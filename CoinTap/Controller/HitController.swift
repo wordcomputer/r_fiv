@@ -2,4 +2,4 @@
 //  HitController.swift
 //  CoinTap
 //
-//  Created by 
+//  Created by Ridwan Abdurrasyid 
