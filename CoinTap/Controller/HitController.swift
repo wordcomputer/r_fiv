@@ -1,3 +1,5 @@
 //
 //  HitController.swift
-//  Co
+//  CoinTap
+//
+//  Created by 
