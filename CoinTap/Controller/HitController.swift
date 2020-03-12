@@ -11,4 +11,4 @@ import ARKit
 import SceneKit
 import AVFoundation
 
-extension ViewCo
+extension ViewController : ARSessionDelegate
