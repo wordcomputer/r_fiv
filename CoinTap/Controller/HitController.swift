@@ -17,3 +17,5 @@ extension ViewController : ARSessionDelegate {
         checkCoin()
     }
     
+    func checkCoin(){
+       
