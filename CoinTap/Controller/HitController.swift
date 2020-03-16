@@ -19,4 +19,4 @@ extension ViewController : ARSessionDelegate {
     
     func checkCoin(){
         let cameraTransform = sceneView.pointOfView!.transform
-        let cameraLocation = SCNVector3Make(cam
+        let cameraLocation = SCNVector3Make(cameraTransform.m41, camer
