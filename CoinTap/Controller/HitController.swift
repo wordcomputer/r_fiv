@@ -22,4 +22,5 @@ extension ViewController : ARSessionDelegate {
         let cameraLocation = SCNVector3Make(cameraTransform.m41, cameraTransform.m42, cameraTransform.m43)
         
         for child in spawnerNode.childNodes{
-            if checkLocation(child.position, cameraLocati
+            if checkLocation(child.position, cameraLocation) {
+                musicPl
