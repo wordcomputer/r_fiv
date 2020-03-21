@@ -23,4 +23,4 @@ extension ViewController : ARSessionDelegate {
         
         for child in spawnerNode.childNodes{
             if checkLocation(child.position, cameraLocation) {
-                musicPl
+                musicPlayer.playSound(
