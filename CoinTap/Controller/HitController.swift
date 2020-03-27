@@ -25,3 +25,4 @@ extension ViewController : ARSessionDelegate {
             if checkLocation(child.position, cameraLocation) {
                 musicPlayer.playSound()
                 vibrate()
+                updat
