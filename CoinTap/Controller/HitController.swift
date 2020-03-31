@@ -26,4 +26,6 @@ extension ViewController : ARSessionDelegate {
                 musicPlayer.playSound()
                 vibrate()
                 updateScore()
-                child.removeFromParentNo
+                child.removeFromParentNode()
+            }
+  
