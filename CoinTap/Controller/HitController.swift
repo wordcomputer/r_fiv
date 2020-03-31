@@ -28,4 +28,6 @@ extension ViewController : ARSessionDelegate {
                 updateScore()
                 child.removeFromParentNode()
             }
-  
+        }
+    }
+    
