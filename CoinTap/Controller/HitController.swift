@@ -31,3 +31,4 @@ extension ViewController : ARSessionDelegate {
         }
     }
     
+    func checkLocation(_
