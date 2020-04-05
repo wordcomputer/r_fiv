@@ -31,4 +31,5 @@ extension ViewController : ARSessionDelegate {
         }
     }
     
-    func checkLocation(_ vector1 : SCNVector3, _ vector2 :  SCNVector3) -> Bo
+    func checkLocation(_ vector1 : SCNVector3, _ vector2 :  SCNVector3) -> Bool{
+        let offsetX 
