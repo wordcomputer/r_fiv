@@ -31,4 +31,4 @@ extension ViewController : ARSessionDelegate {
         }
     }
     
-    func checkLocation(_
+    func checkLocation(_ vector1 : SCNVector3, _ 
