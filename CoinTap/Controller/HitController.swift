@@ -32,4 +32,5 @@ extension ViewController : ARSessionDelegate {
     }
     
     func checkLocation(_ vector1 : SCNVector3, _ vector2 :  SCNVector3) -> Bool{
-        let offsetX 
+        let offsetX : Float = 1
+        let offsetY 
