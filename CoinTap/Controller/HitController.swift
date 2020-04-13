@@ -35,4 +35,5 @@ extension ViewController : ARSessionDelegate {
         let offsetX : Float = 1
         let offsetY : Float = 1
         let offsetZ : Float = 1
- 
+        
+        if v
