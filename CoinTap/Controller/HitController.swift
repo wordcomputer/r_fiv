@@ -36,4 +36,5 @@ extension ViewController : ARSessionDelegate {
         let offsetY : Float = 1
         let offsetZ : Float = 1
         
-        if vector1.x - offsetX < vector2.x && vector2.x < vector1.x + offsetX 
+        if vector1.x - offsetX < vector2.x && vector2.x < vector1.x + offsetX {
+            if vector
