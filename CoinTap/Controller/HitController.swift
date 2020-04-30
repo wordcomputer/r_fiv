@@ -47,4 +47,4 @@ extension ViewController : ARSessionDelegate {
     }
     
     func vibrate(){
-        AudioServicesPlayAlertSound(SystemSound
+        AudioServicesPlayAlertSound(SystemSoundID(kSystemSoundID_Vibrate
