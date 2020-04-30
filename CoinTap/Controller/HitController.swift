@@ -41,4 +41,6 @@ extension ViewController : ARSessionDelegate {
                 if vector1.z - offsetZ < vector2.z && vector2.z < vector1.z + offsetZ {
                     return true
                 }
-          
+            }
+        }
+        retur
