@@ -50,4 +50,5 @@ extension ViewController : ARSessionDelegate {
         AudioServicesPlayAlertSound(SystemSoundID(kSystemSoundID_Vibrate))  
     }
     
-    func
+    func updateScore(){
+     
