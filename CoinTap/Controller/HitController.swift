@@ -51,4 +51,5 @@ extension ViewController : ARSessionDelegate {
     }
     
     func updateScore(){
-     
+        score += 1
+        scoreLab
