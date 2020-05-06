@@ -52,4 +52,4 @@ extension ViewController : ARSessionDelegate {
     
     func updateScore(){
         score += 1
-        scoreLab
+        scoreLabel.text = String(form
