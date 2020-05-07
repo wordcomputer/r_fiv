@@ -53,4 +53,5 @@ extension ViewController : ARSessionDelegate {
     func updateScore(){
         score += 1
         scoreLabel.text = String(format: "COINS %03d", score)
-    
+        if score == coinAmount {
+     
