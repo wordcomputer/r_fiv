@@ -55,4 +55,6 @@ extension ViewController : ARSessionDelegate {
         scoreLabel.text = String(format: "COINS %03d", score)
         if score == coinAmount {
             gameOver()
-   
+        }
+    }
+}
