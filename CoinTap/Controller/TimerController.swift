@@ -2,4 +2,4 @@
 //  TimerController.swift
 //  CoinTap
 //
-//  Created 
+//  Created by Ridwan Abdurras
