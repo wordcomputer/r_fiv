@@ -11,4 +11,5 @@ import UIKit
 
 extension ViewController {
     func setupTimer(){
-        seconds =
+        seconds = timeAmount
+       
