@@ -10,4 +10,5 @@ import Foundation
 import UIKit
 
 extension ViewController {
-    func setupT
+    func setupTimer(){
+        seconds =
