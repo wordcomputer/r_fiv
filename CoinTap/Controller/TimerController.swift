@@ -9,4 +9,5 @@
 import Foundation
 import UIKit
 
-extension ViewC
+extension ViewController {
+    func setupT
