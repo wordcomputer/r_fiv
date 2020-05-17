@@ -12,4 +12,4 @@ import UIKit
 extension ViewController {
     func setupTimer(){
         seconds = timeAmount
-       
+        timerLabel.isHidden = true
