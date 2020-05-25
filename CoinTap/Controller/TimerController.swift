@@ -16,4 +16,5 @@ extension ViewController {
         timerLabel.font = UIFont.init(name: "04b_19", size: labelSize)
     }
     func startTimer(){
-        timerLab
+        timerLabel.isHidden = false
+        timer = Tim
