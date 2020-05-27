@@ -21,4 +21,5 @@ extension ViewController {
     }
     
     func timeString(time:TimeInterval) -> String {
-        let minutes = In
+        let minutes = Int(time) / 60 % 60
+       
