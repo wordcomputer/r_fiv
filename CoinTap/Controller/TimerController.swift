@@ -17,4 +17,4 @@ extension ViewController {
     }
     func startTimer(){
         timerLabel.isHidden = false
-        timer = Tim
+        timer = Timer.scheduledTimer(time
