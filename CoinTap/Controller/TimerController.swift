@@ -26,4 +26,5 @@ extension ViewController {
         return String(format:"%02i:%02i", minutes, seconds)
     }
     
-    @objc func upd
+    @objc func updateTimer(){
+        s
