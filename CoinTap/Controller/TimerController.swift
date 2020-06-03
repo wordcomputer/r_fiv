@@ -32,4 +32,6 @@ extension ViewController {
         if seconds <= 0{
             timer.invalidate()
             gameOver()
-        
+        }
+    }
+}
