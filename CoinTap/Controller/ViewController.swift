@@ -13,3 +13,27 @@ import ARKit
 import LocalAuthentication
 
 class ViewController: UIViewController, ARSCNViewDelegate {
+
+    //Game Balance
+    let timeAmount = 180
+    let coinAmount = 40
+    //
+    
+    @IBOutlet weak var commandLabelOutlet: UILabel!
+    @IBOutlet weak var playButtonOutlet: UIButton!
+    @IBOutlet var sceneView: ARSCNView!
+    @IBOutlet weak var scoreLabel: UILabel!
+    @IBOutlet weak var timerLabel: UILabel!
+    
+    let musicPlayer = MusicPlayer.instance
+    let pedometer = Pedometer()
+    var spawnerNode = SCNNode()
+    var audioPlayer = AVAudioPlayer()
+    var score : Int = 0
+    var seconds = 10
+    let labelSize : CGFloat = 25
+    var timer = Timer()
+    var isTimerRunning = false
+    
+    var context = LAContext()
+    
