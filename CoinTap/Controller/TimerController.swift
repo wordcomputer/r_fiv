@@ -30,4 +30,5 @@ extension ViewController {
         seconds -= 1
         timerLabel.text = timeString(time: TimeInterval(seconds))
         if seconds <= 0{
-     
+            timer.invalidate()
+   
