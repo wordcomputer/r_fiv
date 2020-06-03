@@ -28,4 +28,5 @@ extension ViewController {
     
     @objc func updateTimer(){
         seconds -= 1
-        timerLabel.text = timeString(time: TimeInterval(s
+        timerLabel.text = timeString(time: TimeInterval(seconds))
+        if secon
