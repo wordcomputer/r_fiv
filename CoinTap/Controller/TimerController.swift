@@ -28,4 +28,4 @@ extension ViewController {
     
     @objc func updateTimer(){
         seconds -= 1
-      
+        timerLabel.text = time
