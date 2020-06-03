@@ -31,4 +31,5 @@ extension ViewController {
         timerLabel.text = timeString(time: TimeInterval(seconds))
         if seconds <= 0{
             timer.invalidate()
-   
+            gameOver()
+        
