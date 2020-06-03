@@ -27,4 +27,5 @@ extension ViewController {
     }
     
     @objc func updateTimer(){
-        s
+        seconds -= 1
+      
