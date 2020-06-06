@@ -37,3 +37,27 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     
     var context = LAContext()
     
+    /// The available states of being logged in or not.
+    enum AuthenticationState {
+        case loggedin, loggedout
+    }
+    
+    /// The current authentication state.
+    var state = AuthenticationState.loggedout
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        setupLocalAuthentication()
+        setupScore()
+        setupCommandText()
+        setupTimer()
+        setupPlayButton()
+        setupScene()
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
