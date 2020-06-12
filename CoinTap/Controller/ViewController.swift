@@ -61,3 +61,27 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
+        
+        // Pause the view's session
+        sceneView.session.pause()
+    }
+    
+    func setupPlayButton(){
+        playButtonOutlet.isHidden = false
+        playButtonOutlet.layer.cornerRadius = playButtonOutlet.frame.width/2
+        playButtonOutlet.layer.borderWidth = 12
+        playButtonOutlet.layer.borderColor = #colorLiteral(red: 0.8, green: 0.2470588235, blue: 0.003921568627, alpha: 1)
+        playButtonOutlet.titleLabel?.font = UIFont(name: "04b_19", size: 90)
+        playButtonOutlet.titleLabel?.numberOfLines = 0
+        playButtonOutlet.titleLabel?.textAlignment = .center
+        playButtonOutlet.transform = CGAffineTransform(translationX: 0, y: 0)
+        UIView.animate(withDuration: 1, delay: 0, options: [.repeat, .autoreverse, .allowUserInteraction], animations: {
+            self.playButtonOutlet.transform = CGAffineTransform(translationX: 0, y: 10)
+        }, completion: { _ in
+            
+        })
+    }
+    
+    func setupCommandText(){
+        commandLabelOutlet.isHidden = false
+        commandLabelOutlet.font = UIFont(name: "04b_19", size: 30)
