@@ -85,3 +85,21 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     func setupCommandText(){
         commandLabelOutlet.isHidden = false
         commandLabelOutlet.font = UIFont(name: "04b_19", size: 30)
+    }
+
+    func setupScene(){
+        sceneView.delegate = self
+        sceneView.session.delegate = self
+
+        let configuration = ARWorldTrackingConfiguration()
+//        configuration.planeDetection = [.horizontal, .vertical]
+        configuration.planeDetection = .vertical
+//        configuration.planeDetection = .horizontal
+
+        
+        configuration.isLightEstimationEnabled = true
+        if #available(iOS 13.0, *) {
+            configuration.frameSemantics.insert(.personSegmentationWithDepth)
+        } else {
+            // Fallback on earlier versions
+        }
