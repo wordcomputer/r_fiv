@@ -103,3 +103,29 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         } else {
             // Fallback on earlier versions
         }
+
+//        sceneView.debugOptions = .showFeaturePoints
+        
+        sceneView.automaticallyUpdatesLighting = true
+        sceneView.autoenablesDefaultLighting = true
+        
+        sceneView.session.run(configuration)
+    }
+//    
+//    func setupWalls(anchor : ARPlaneAnchor)  -> SCNNode{
+//        let occlusionMaterial = SCNMaterial()
+//        occlusionMaterial.isDoubleSided = true
+//        //Invicible Maaterial
+//        occlusionMaterial.colorBufferWriteMask = []
+//        occlusionMaterial.readsFromDepthBuffer = true
+//        occlusionMaterial.writesToDepthBuffer = true
+//        //
+////        occlusionMaterial.diffuse.contents = UIColor.blue
+////        occlusionMaterial.specular.contents = UIColor.black
+////        occlusionMaterial.lightingModel = .phong
+//        
+//        let node = SCNNode()
+//        node.name = "wall"
+//        node.geometry = SCNPlane(width: CGFloat(anchor.extent.x), height: CGFloat(anchor.extent.z))
+//        node.eulerAngles = SCNVector3(1.5708, 0, 0)
+//        node.geometry?.firstMaterial = occlusionMaterial
