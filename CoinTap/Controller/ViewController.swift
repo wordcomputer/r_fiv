@@ -156,3 +156,24 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         haptic.notificationOccurred(.success)
     }
     
+    @IBAction func playButtonAction(_ sender: Any) {
+        play()
+//        checkFaceID()
+    }
+    
+    func play(){
+        startTimer()
+        spawnCoins()
+        hideUI()
+        pedometer.startRecord()
+    }
+    
+    func hideUI(){
+        playButtonOutlet.isHidden = true
+        commandLabelOutlet.isHidden = true
+        scoreLabel.isHidden = false
+    }
+    
+    func spawnCoins(){
+        spawnerNode = CoinSpawner().spawnCoins(coinAmount: coinAmount)
+        print(spawnerNode.renderingOrder)
