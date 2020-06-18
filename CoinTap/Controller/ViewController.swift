@@ -129,3 +129,30 @@ class ViewController: UIViewController, ARSCNViewDelegate {
 //        node.geometry = SCNPlane(width: CGFloat(anchor.extent.x), height: CGFloat(anchor.extent.z))
 //        node.eulerAngles = SCNVector3(1.5708, 0, 0)
 //        node.geometry?.firstMaterial = occlusionMaterial
+//        node.position = SCNVector3Make(anchor.center.x, anchor.center.y, anchor.center.z)
+//        node.renderingOrder = -100
+//        print(#function, anchor.extent.x, anchor.extent.z)
+//        return node
+//    }
+//    
+//    func removeWalls(){
+//        sceneView.scene.rootNode.enumerateChildNodes { (node, _) in
+//            if node.name == "wall" {
+//                node.removeFromParentNode()
+//            }
+//        }
+//    }
+    
+    func setupScore(){
+        score = 0
+        scoreLabel.font = UIFont.init(name: "04b_19", size: CGFloat(labelSize))
+        scoreLabel.text = String(format: "COINS %03d", score)
+        scoreLabel.isHidden = true
+    }
+    
+    
+    @IBAction func playButtonDownAction(_ sender: Any) {
+        let haptic = UINotificationFeedbackGenerator()
+        haptic.notificationOccurred(.success)
+    }
+    
