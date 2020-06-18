@@ -177,3 +177,22 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     func spawnCoins(){
         spawnerNode = CoinSpawner().spawnCoins(coinAmount: coinAmount)
         print(spawnerNode.renderingOrder)
+        sceneView.scene.rootNode.addChildNode(spawnerNode)
+    }
+    
+    func gameOver(){
+        spawnerNode.removeFromParentNode()
+        sceneView.session.pause()
+        pedometer.stopRecord()
+        performSegue(withIdentifier: "gameOverSegue", sender: self)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "gameOverSegue" {
+            if let vc = segue.destination as? GameOverViewController {
+                vc.score = score
+                vc.step = pedometer.steps
+            }
+        }
+    }
+    
