@@ -218,3 +218,26 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     
     func sessionInterruptionEnded(_ session: ARSession) {
         // Reset tracking and/or remove existing anchors if consistent tracking is required
+        
+    }
+    
+//    func renderer(_ renderer: SCNSceneRenderer, didRenderScene scene: SCNScene, atTime time: TimeInterval) {
+//
+//    }
+//
+//    func renderer(_ renderer: SCNSceneRenderer, didAdd node: SCNNode, for anchor: ARAnchor) {
+//        guard let anchorPlane = anchor as? ARPlaneAnchor else {return}
+//        node.addChildNode(setupWalls(anchor: anchorPlane))
+//    }
+//
+//    func renderer(_ renderer: SCNSceneRenderer, didUpdate node: SCNNode, for anchor: ARAnchor) {
+//        guard let anchorPlane = anchor as? ARPlaneAnchor else {return}
+//        removeWalls()
+//        node.addChildNode(setupWalls(anchor: anchorPlane))
+//    }
+//
+//    func renderer(_ renderer: SCNSceneRenderer, didRemove node: SCNNode, for anchor: ARAnchor) {
+//        guard let anchorPlane = anchor as? ARPlaneAnchor else {return}
+////        removeWalls(anchor: anchorPlane)
+//    }
+}
