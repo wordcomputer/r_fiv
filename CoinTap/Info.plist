@@ -6,4 +6,5 @@
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
 	<string>Coin Hunt</string>
-	<key>CFBundleExecu
+	<key>CFBundleExecutable</key>
+	<string>$(EXEC
