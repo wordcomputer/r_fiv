@@ -7,4 +7,5 @@
 	<key>CFBundleDisplayName</key>
 	<string>Coin Hunt</string>
 	<key>CFBundleExecutable</key>
-	<string>$(EXEC
+	<string>$(EXECUTABLE_NAME)</string>
+	<
