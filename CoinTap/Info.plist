@@ -8,4 +8,4 @@
 	<string>Coin Hunt</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
-	<
+	<key>CFBundleIdentifier</
