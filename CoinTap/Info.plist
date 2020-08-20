@@ -14,4 +14,5 @@
 	<string>6.0</string>
 	<key>CFBundleName</key>
 	<string>$(PRODUCT_NAME)</string>
-	<key>CFBundlePackage
+	<key>CFBundlePackageType</key>
+	<string>APP
