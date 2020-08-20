@@ -13,4 +13,5 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>$(PRODUCT_NAM
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackage
