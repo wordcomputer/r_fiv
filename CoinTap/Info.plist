@@ -22,4 +22,5 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
-	<key>NSCameraUsageDescr
+	<key>NSCameraUsageDescription</key>
+	<string>
