@@ -25,4 +25,5 @@
 	<key>NSCameraUsageDescription</key>
 	<string>App requires Camera to Play</string>
 	<key>NSFaceIDUsageDescription</key>
-	<string>App requires FaceI
+	<string>App requires FaceID to Play</string>
+	<key>NSHealthClinic
