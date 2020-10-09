@@ -29,4 +29,5 @@
 	<key>NSHealthClinicalHealthRecordsShareUsageDescription</key>
 	<string>App requires your permission to check Health Records</string>
 	<key>NSHealthShareUsageDescription</key>
-	<string>App requires your permission to 
+	<string>App requires your permission to check Health Share</string>
+	
