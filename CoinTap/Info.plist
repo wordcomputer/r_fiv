@@ -27,4 +27,5 @@
 	<key>NSFaceIDUsageDescription</key>
 	<string>App requires FaceID to Play</string>
 	<key>NSHealthClinicalHealthRecordsShareUsageDescription</key>
-	<string>App requires your permission to check Health Records</
+	<string>App requires your permission to check Health Records</string>
+	<key>NSHealthShareUs
