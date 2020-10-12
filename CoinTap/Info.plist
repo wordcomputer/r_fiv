@@ -30,4 +30,5 @@
 	<string>App requires your permission to check Health Records</string>
 	<key>NSHealthShareUsageDescription</key>
 	<string>App requires your permission to check Health Share</string>
-	<key>NSMotionUsageDesc
+	<key>NSMotionUsageDescription</key>
+	<string
