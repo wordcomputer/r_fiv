@@ -32,4 +32,6 @@
 	<string>App requires your permission to check Health Share</string>
 	<key>NSMotionUsageDescription</key>
 	<string>App requires your permission to track your steps</string>
-	<key>UIAppFont
+	<key>UIAppFonts</key>
+	<array>
+		<string>cus
