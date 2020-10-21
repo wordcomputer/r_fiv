@@ -34,4 +34,5 @@
 	<string>App requires your permission to track your steps</string>
 	<key>UIAppFonts</key>
 	<array>
-		<string>cus
+		<string>custom.TTF</string>
+	</arra
