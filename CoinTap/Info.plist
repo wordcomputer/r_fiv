@@ -35,4 +35,5 @@
 	<key>UIAppFonts</key>
 	<array>
 		<string>custom.TTF</string>
-	</arra
+	</array>
+	<key>UILaunch
