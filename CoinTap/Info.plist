@@ -36,4 +36,5 @@
 	<array>
 		<string>custom.TTF</string>
 	</array>
-	<key>UILaunch
+	<key>UILaunchStoryboardName</key>
+	<st
