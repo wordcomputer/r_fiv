@@ -39,4 +39,5 @@
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
-	<st
+	<string>Main</string>
+	<key>UI
