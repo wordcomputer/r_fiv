@@ -40,4 +40,4 @@
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
-	<key>UI
+	<key>UIRequiredDeviceCapabilities
