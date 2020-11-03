@@ -42,4 +42,5 @@
 	<string>Main</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
-		<string
+		<string>armv7</string>
+		<strin
