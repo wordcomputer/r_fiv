@@ -43,4 +43,6 @@
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
-		<strin
+		<string>arkit</string>
+	</array>
+	
