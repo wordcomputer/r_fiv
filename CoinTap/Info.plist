@@ -49,4 +49,5 @@
 	<true/>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
-		<string>UIInterfaceOrientationP
+		<string>UIInterfaceOrientationPortrait</string>
+		<strin
