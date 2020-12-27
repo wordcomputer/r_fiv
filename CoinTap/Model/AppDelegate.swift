@@ -1,0 +1,4 @@
+
+//
+//  AppDelegate.swift
+//  CoinTap
