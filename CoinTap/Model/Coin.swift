@@ -1,2 +1,5 @@
 //
-//  
+//  Coin.swift
+//  CoinTap
+//
+//  C
