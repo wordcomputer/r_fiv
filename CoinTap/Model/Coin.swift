@@ -2,4 +2,4 @@
 //  Coin.swift
 //  CoinTap
 //
-//  C
+//  Created by Ridwan Abdurrasyid
