@@ -11,4 +11,5 @@ import SceneKit
 import ARKit
 
 class Coin : NSObject {
-    var coin
+    var coin = SCNNode()
+    var s
