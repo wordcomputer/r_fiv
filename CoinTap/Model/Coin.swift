@@ -8,4 +8,6 @@
 
 import Foundation
 import SceneKit
-import
+import ARKit
+
+class Coin : NSO
