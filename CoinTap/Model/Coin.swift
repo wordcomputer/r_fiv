@@ -10,4 +10,5 @@ import Foundation
 import SceneKit
 import ARKit
 
-class Coin : NSO
+class Coin : NSObject {
+    var coin
