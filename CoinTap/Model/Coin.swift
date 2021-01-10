@@ -12,4 +12,6 @@ import ARKit
 
 class Coin : NSObject {
     var coin = SCNNode()
-    var s
+    var scale = 0.5
+    
+  
