@@ -15,4 +15,6 @@ class Coin : NSObject {
     var scale = 0.5
     
     
-    override ini
+    override init() {
+        super.init()
+ 
