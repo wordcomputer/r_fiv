@@ -14,4 +14,5 @@ class Coin : NSObject {
     var coin = SCNNode()
     var scale = 0.5
     
-  
+    
+    override ini
