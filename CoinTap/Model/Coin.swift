@@ -18,4 +18,4 @@ class Coin : NSObject {
     override init() {
         super.init()
         guard let coinObject = SCNScene(named: "art.scnassets/coin.dae") else { return }
-        for node in coinObjec
+        for node in coinObject.rootNode.childNodes as [SCNNode]{
