@@ -17,4 +17,5 @@ class Coin : NSObject {
     
     override init() {
         super.init()
-        guard let coinObject = SCNScene(named: "art.scnassets/coin.da
+        guard let coinObject = SCNScene(named: "art.scnassets/coin.dae") else { return }
+     
