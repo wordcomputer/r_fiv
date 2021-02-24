@@ -21,4 +21,7 @@ class Coin : NSObject {
         for node in coinObject.rootNode.childNodes as [SCNNode]{
             coin.addChildNode(node)
         }
-        coin.scale = SCNVector3(scale, scale
+        coin.scale = SCNVector3(scale, scale, scale)
+    }
+    
+    fu
