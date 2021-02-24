@@ -19,3 +19,4 @@ class Coin : NSObject {
         super.init()
         guard let coinObject = SCNScene(named: "art.scnassets/coin.dae") else { return }
         for node in coinObject.rootNode.childNodes as [SCNNode]{
+            coin.addChildNod
