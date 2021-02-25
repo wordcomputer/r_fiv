@@ -25,4 +25,6 @@ class Coin : NSObject {
     }
     
     func getCoin() -> SCNNode{
-        return 
+        return coin
+    }
+}
