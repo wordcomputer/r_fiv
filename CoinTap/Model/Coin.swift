@@ -24,4 +24,4 @@ class Coin : NSObject {
         coin.scale = SCNVector3(scale, scale, scale)
     }
     
-    fu
+    func getCoin() -
