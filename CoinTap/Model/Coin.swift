@@ -24,4 +24,5 @@ class Coin : NSObject {
         coin.scale = SCNVector3(scale, scale, scale)
     }
     
-    func getCoin() -
+    func getCoin() -> SCNNode{
+        return 
