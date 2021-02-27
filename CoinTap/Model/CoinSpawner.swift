@@ -1,2 +1,3 @@
 //
-//  Coin
+//  CoinSpawner.swift
+//  
