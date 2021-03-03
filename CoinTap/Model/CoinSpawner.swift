@@ -2,4 +2,5 @@
 //  CoinSpawner.swift
 //  CoinTap
 //
-//  Created by Ridw
+//  Created by Ridwan Abdurrasyid on 18/09/19.
+/
