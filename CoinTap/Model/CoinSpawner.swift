@@ -11,4 +11,5 @@ import ARKit
 import SceneKit
 import GLKit
 
-class Coi
+class CoinSpawner {
+    let spa
