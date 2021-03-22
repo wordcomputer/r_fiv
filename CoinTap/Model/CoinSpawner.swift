@@ -12,4 +12,5 @@ import SceneKit
 import GLKit
 
 class CoinSpawner {
-    let spa
+    let spawnerNode = SCNNode()
+    
