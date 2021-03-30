@@ -14,4 +14,5 @@ import GLKit
 class CoinSpawner {
     let spawnerNode = SCNNode()
     let rangeRadius : Float = 15
-    let rangeHeight :
+    let rangeHeight : Float = 0.5
+  
