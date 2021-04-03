@@ -17,4 +17,4 @@ class CoinSpawner {
     let rangeHeight : Float = 0.5
     let positionOffset : Float = 3
     
-    func sp
+    func spawnCoins(coinAmo
