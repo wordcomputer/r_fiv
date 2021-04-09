@@ -17,4 +17,5 @@ class CoinSpawner {
     let rangeHeight : Float = 0.5
     let positionOffset : Float = 3
     
-    func spawnCoins(coinAmo
+    func spawnCoins(coinAmount : Int) -> SCNNode{
+        for
