@@ -20,4 +20,5 @@ class CoinSpawner {
     func spawnCoins(coinAmount : Int) -> SCNNode{
         for i in 0...coinAmount - 1{
             let coin = Coin().getCoin()
-           
+            if i > 0 {
+                rand
