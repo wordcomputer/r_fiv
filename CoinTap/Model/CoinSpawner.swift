@@ -21,4 +21,5 @@ class CoinSpawner {
         for i in 0...coinAmount - 1{
             let coin = Coin().getCoin()
             if i > 0 {
-                randomizePosition(coin: co
+                randomizePosition(coin: coin)
+            } else {
