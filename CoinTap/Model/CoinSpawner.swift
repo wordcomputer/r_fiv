@@ -23,3 +23,4 @@ class CoinSpawner {
             if i > 0 {
                 randomizePosition(coin: coin)
             } else {
+                coin.pos
