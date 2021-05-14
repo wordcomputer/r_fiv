@@ -23,4 +23,5 @@ class CoinSpawner {
             if i > 0 {
                 randomizePosition(coin: coin)
             } else {
-                coin.position = SCNVector3Make(0, 
+                coin.position = SCNVector3Make(0, 0, -2)
+            }
