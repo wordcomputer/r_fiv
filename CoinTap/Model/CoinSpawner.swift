@@ -25,3 +25,4 @@ class CoinSpawner {
             } else {
                 coin.position = SCNVector3Make(0, 0, -2)
             }
+            spawnerNod
