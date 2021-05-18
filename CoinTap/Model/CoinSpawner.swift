@@ -26,4 +26,5 @@ class CoinSpawner {
                 coin.position = SCNVector3Make(0, 0, -2)
             }
             spawnerNode.addChildNode(coin)
-     
+        }
+        return spawnerNode
