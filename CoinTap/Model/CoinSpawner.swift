@@ -30,4 +30,5 @@ class CoinSpawner {
         return spawnerNode
     }
     
-    func randomizePosition(
+    func randomizePosition(coin : SCNNode){
+        
