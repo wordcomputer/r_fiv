@@ -30,4 +30,4 @@ class CoinSpawner {
         return spawnerNode
     }
     
-    func rando
+    func randomizePosition(
