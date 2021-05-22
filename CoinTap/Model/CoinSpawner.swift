@@ -28,3 +28,6 @@ class CoinSpawner {
             spawnerNode.addChildNode(coin)
         }
         return spawnerNode
+    }
+    
+    func rando
