@@ -31,4 +31,4 @@ class CoinSpawner {
     }
     
     func randomizePosition(coin : SCNNode){
-        let x = Float.random
+        let x = Float.random(in: -rangeRadius...
