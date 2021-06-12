@@ -36,4 +36,5 @@ class CoinSpawner {
         let z = Float.random(in: -rangeRadius...rangeRadius)
         coin.position = SCNVector3(x, y, z)
         if x < positionOffset && x > -positionOffset {
-            if z < positionOffset && z > -positionOffset
+            if z < positionOffset && z > -positionOffset {
+                ran
