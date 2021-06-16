@@ -37,4 +37,4 @@ class CoinSpawner {
         coin.position = SCNVector3(x, y, z)
         if x < positionOffset && x > -positionOffset {
             if z < positionOffset && z > -positionOffset {
-                ran
+                randomizePosition(coin: c
