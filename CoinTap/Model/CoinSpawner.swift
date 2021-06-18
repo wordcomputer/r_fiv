@@ -40,4 +40,5 @@ class CoinSpawner {
                 randomizePosition(coin: coin)
             }
         }
+        validatePosition()
  
