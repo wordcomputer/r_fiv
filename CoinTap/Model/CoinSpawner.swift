@@ -41,4 +41,6 @@ class CoinSpawner {
             }
         }
         validatePosition()
- 
+    }
+    
+    func valid
