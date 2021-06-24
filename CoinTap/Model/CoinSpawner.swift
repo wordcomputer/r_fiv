@@ -44,4 +44,4 @@ class CoinSpawner {
     }
     
     func validatePosition(){
-        if 
+        if spawnerNode.childNod
