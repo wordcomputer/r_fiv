@@ -43,4 +43,5 @@ class CoinSpawner {
         validatePosition()
     }
     
-    func valid
+    func validatePosition(){
+        if 
