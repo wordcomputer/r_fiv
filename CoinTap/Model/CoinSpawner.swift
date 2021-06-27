@@ -45,4 +45,4 @@ class CoinSpawner {
     
     func validatePosition(){
         if spawnerNode.childNodes.count > 2 {
-            f
+            for i in 1...spawnerNode.childN
