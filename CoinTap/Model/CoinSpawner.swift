@@ -49,4 +49,5 @@ class CoinSpawner {
                 for j in 1...spawnerNode.childNodes.count - 1 {
                     if i != j {
                         let pos1 = SCNVector3ToGLKVector3(spawnerNode.childNodes[i].position)
-                        let pos2 = SCNVector3ToGLKVector3(spawnerNode.childNodes[j]
+                        let pos2 = SCNVector3ToGLKVector3(spawnerNode.childNodes[j].position)
+                  
