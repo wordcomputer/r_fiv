@@ -53,4 +53,5 @@ class CoinSpawner {
                         let distance = GLKVector3Distance(pos1, pos2)
                         if distance < positionOffset {
                             print(#function, distance)
-                            randomizePosition(coin: spawnerNode.chi
+                            randomizePosition(coin: spawnerNode.childNodes[i])
+              
