@@ -52,4 +52,5 @@ class CoinSpawner {
                         let pos2 = SCNVector3ToGLKVector3(spawnerNode.childNodes[j].position)
                         let distance = GLKVector3Distance(pos1, pos2)
                         if distance < positionOffset {
-                            print(#function,
+                            print(#function, distance)
+                 
