@@ -55,4 +55,5 @@ class CoinSpawner {
                             print(#function, distance)
                             randomizePosition(coin: spawnerNode.childNodes[i])
                         }
-              
+                    }
+                
