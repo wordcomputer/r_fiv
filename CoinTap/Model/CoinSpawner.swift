@@ -54,4 +54,5 @@ class CoinSpawner {
                         if distance < positionOffset {
                             print(#function, distance)
                             randomizePosition(coin: spawnerNode.childNodes[i])
+                        }
               
