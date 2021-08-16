@@ -56,4 +56,6 @@ class CoinSpawner {
                             randomizePosition(coin: spawnerNode.childNodes[i])
                         }
                     }
-                
+                }
+            }
+        }
