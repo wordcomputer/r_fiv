@@ -40,3 +40,27 @@ class HealthKit : NSObject {
         
         //4. Request Authorization
         HKHealthStore().requestAuthorization(toShare: nil,
+                                             read: healthKitTypesToRead) { (success, error) in
+                                                completion(success, error)
+        }
+    }
+    
+    func getHealthData(for sampleType: HKSampleType,
+                      completion: @escaping (HKQuantitySample?, Error?) -> Swift.Void){
+        //1. Use HKQuery to load the most recent samples.
+        let mostRecentPredicate = HKQuery.predicateForSamples(withStart: Date.distantPast,
+                                                              end: Date(),
+                                                              options: .strictEndDate)
+        
+        let sortDescriptor = NSSortDescriptor(key: HKSampleSortIdentifierStartDate,
+                                              ascending: false)
+        
+        let limit = 1
+        
+        let sampleQuery = HKSampleQuery(sampleType: sampleType,
+                                        predicate: mostRecentPredicate,
+                                        limit: limit,
+                                        sortDescriptors: [sortDescriptor]) { (query, samples, error) in
+                                            
+                                            //2. Always dispatch to the main thread when complete.
+                                            DispatchQueue.main.async {
