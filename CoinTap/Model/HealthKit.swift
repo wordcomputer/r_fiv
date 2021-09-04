@@ -91,3 +91,27 @@ class HealthKit : NSObject {
             guard let sample = sample else { return }
             
             //2. Convert the height sample to meters, save to the profile model,
+            //   and update the user interface.
+            let heightInMeters = sample.quantity.doubleValue(for: HKUnit.meter())
+            self.height = heightInMeters
+            self.delegate?.caloryCount()
+            print(#function, self.height, self.weight)
+
+        }
+        
+        guard let weightSampleType = HKSampleType.quantityType(forIdentifier: .bodyMass) else {
+            print("Body Mass Sample Type is no longer available in HealthKit")
+            return
+        }
+        
+        getHealthData(for: weightSampleType) { (sample, error) in
+            
+            guard let sample = sample else { return }
+            
+            let weightInKilograms = sample.quantity.doubleValue(for: HKUnit.gramUnit(with: .kilo))
+            self.weight = weightInKilograms
+            self.delegate?.caloryCount()
+            print(#function, self.height, self.weight)
+        }
+    }
+}
