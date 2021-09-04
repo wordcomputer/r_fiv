@@ -64,3 +64,30 @@ class HealthKit : NSObject {
                                             
                                             //2. Always dispatch to the main thread when complete.
                                             DispatchQueue.main.async {
+                                                
+                                                guard let samples = samples,
+                                                    let mostRecentSample = samples.first as? HKQuantitySample else {
+                                                        
+                                                        completion(nil, error)
+                                                        return
+                                                }
+                                                
+                                                completion(mostRecentSample, nil)
+                                            }
+        }
+        
+        HKHealthStore().execute(sampleQuery)
+    }
+    
+    func loadHealthData(){
+        print(#function, height, weight)
+        guard let heightSampleType = HKSampleType.quantityType(forIdentifier: .height) else {
+            print("Height Sample Type is no longer available in HealthKit")
+            return
+        }
+        
+        getHealthData(for: heightSampleType) { (sample, error) in
+            
+            guard let sample = sample else { return }
+            
+            //2. Convert the height sample to meters, save to the profile model,
