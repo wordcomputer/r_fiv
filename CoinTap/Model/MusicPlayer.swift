@@ -23,3 +23,6 @@ class MusicPlayer :  NSObject{
             print(error)
         }
         audioPlayer?.prepareToPlay()
+        audioPlayer?.play()
+    }
+}
