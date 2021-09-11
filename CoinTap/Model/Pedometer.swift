@@ -1,2 +1,5 @@
 //
-//  Pedometer.s
+//  Pedometer.swift
+//  CoinTap
+//
+//
