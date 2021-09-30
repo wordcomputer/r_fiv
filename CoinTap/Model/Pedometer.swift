@@ -9,4 +9,5 @@
 import Foundation
 import CoreMotion
 
-class Pedometer : NSOb
+class Pedometer : NSObject {
+    privat
