@@ -7,4 +7,6 @@
 //
 
 import Foundation
-import Core
+import CoreMotion
+
+class Pedometer : NSOb
