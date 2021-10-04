@@ -10,4 +10,5 @@ import Foundation
 import CoreMotion
 
 class Pedometer : NSObject {
-    private let activityManager = CMMotionActivityM
+    private let activityManager = CMMotionActivityManager()
+    private 
