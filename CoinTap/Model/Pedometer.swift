@@ -12,3 +12,6 @@ import CoreMotion
 class Pedometer : NSObject {
     private let activityManager = CMMotionActivityManager()
     private let pedometer = CMPedometer()
+    var steps = 0
+    
+  
