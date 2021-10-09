@@ -14,4 +14,5 @@ class Pedometer : NSObject {
     private let pedometer = CMPedometer()
     var steps = 0
     
-    func startRecord
+    func startRecord(){
+        start
