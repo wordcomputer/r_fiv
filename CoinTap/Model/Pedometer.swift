@@ -15,4 +15,7 @@ class Pedometer : NSObject {
     var steps = 0
     
     func startRecord(){
-        start
+        startCountingSteps()
+    }
+    
+    p
