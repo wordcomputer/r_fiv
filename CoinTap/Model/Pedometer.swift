@@ -18,4 +18,5 @@ class Pedometer : NSObject {
         startCountingSteps()
     }
     
-    private func startCou
+    private func startCountingSteps() {
+        pedometer.start
