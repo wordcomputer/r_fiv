@@ -19,4 +19,4 @@ class Pedometer : NSObject {
     }
     
     private func startCountingSteps() {
-        pedometer.start
+        pedometer.startUpdates(from: Date(
