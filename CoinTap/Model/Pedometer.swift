@@ -20,4 +20,4 @@ class Pedometer : NSObject {
     
     private func startCountingSteps() {
         pedometer.startUpdates(from: Date()) {
-            [wea
+            [weak self] pedometerData, er
