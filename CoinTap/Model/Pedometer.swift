@@ -21,4 +21,5 @@ class Pedometer : NSObject {
     private func startCountingSteps() {
         pedometer.startUpdates(from: Date()) {
             [weak self] pedometerData, error in
-            guard let pedometerData = pedometerData, error == nil else { 
+            guard let pedometerData = pedometerData, error == nil else { return }
+            
