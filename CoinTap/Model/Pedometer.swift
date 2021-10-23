@@ -23,4 +23,5 @@ class Pedometer : NSObject {
             [weak self] pedometerData, error in
             guard let pedometerData = pedometerData, error == nil else { return }
             
-            Dispatch
+            DispatchQueue.main.async {
+     
