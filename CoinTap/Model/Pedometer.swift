@@ -24,4 +24,4 @@ class Pedometer : NSObject {
             guard let pedometerData = pedometerData, error == nil else { return }
             
             DispatchQueue.main.async {
-                self?.steps = Int
+                self?.steps = Int(pedometerData.numbe
