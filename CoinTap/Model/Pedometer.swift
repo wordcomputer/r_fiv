@@ -29,4 +29,5 @@ class Pedometer : NSObject {
         }
     }
     
-    func stop
+    func stopRecord(){
+        pedometer
