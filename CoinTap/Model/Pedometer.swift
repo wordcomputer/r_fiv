@@ -26,4 +26,7 @@ class Pedometer : NSObject {
             DispatchQueue.main.async {
                 self?.steps = Int(pedometerData.numberOfSteps)
             }
-   
+        }
+    }
+    
+    func stop
