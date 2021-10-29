@@ -32,3 +32,4 @@ class Pedometer : NSObject {
     func stopRecord(){
         pedometer.stopUpdates()
     }
+}
