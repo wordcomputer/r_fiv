@@ -79,3 +79,32 @@
                             <constraint firstItem="IoO-Nz-X0X" firstAttribute="top" secondItem="fQZ-KI-GVf" secondAttribute="top" constant="18" id="6Nu-TE-cX2"/>
                             <constraint firstItem="BrB-h1-WRS" firstAttribute="leading" secondItem="fQZ-KI-GVf" secondAttribute="leading" id="GsS-dJ-CKf"/>
                             <constraint firstItem="BrB-h1-WRS" firstAttribute="bottom" secondItem="fQZ-KI-GVf" secondAttribute="bottom" id="VpT-BR-CcM"/>
+                            <constraint firstItem="BrB-h1-WRS" firstAttribute="trailing" secondItem="fQZ-KI-GVf" secondAttribute="trailing" id="XyZ-9z-H8e"/>
+                            <constraint firstItem="IoO-Nz-X0X" firstAttribute="leading" secondItem="fQZ-KI-GVf" secondAttribute="leading" constant="22" id="bIB-ch-8I8"/>
+                            <constraint firstItem="RlR-HJ-7Ci" firstAttribute="centerY" secondItem="fQZ-KI-GVf" secondAttribute="centerY" id="eti-Ki-T83"/>
+                            <constraint firstItem="wih-ae-pbP" firstAttribute="top" secondItem="fQZ-KI-GVf" secondAttribute="top" constant="18" id="pq9-7R-e3A"/>
+                            <constraint firstItem="BrB-h1-WRS" firstAttribute="top" secondItem="U0K-SW-4ec" secondAttribute="top" id="rJc-2c-zQA"/>
+                            <constraint firstItem="RlR-HJ-7Ci" firstAttribute="centerX" secondItem="fQZ-KI-GVf" secondAttribute="centerX" id="vNE-iA-NUl"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="fQZ-KI-GVf"/>
+                    </view>
+                    <connections>
+                        <outlet property="commandLabelOutlet" destination="4dU-QS-mXW" id="GLy-Vu-xqW"/>
+                        <outlet property="playButtonOutlet" destination="70D-Me-bma" id="ZCo-Wq-gUk"/>
+                        <outlet property="sceneView" destination="BrB-h1-WRS" id="5nT-qQ-ynl"/>
+                        <outlet property="scoreLabel" destination="wih-ae-pbP" id="mxM-ok-LdH"/>
+                        <outlet property="timerLabel" destination="IoO-Nz-X0X" id="J5g-ts-eUB"/>
+                        <segue destination="Pwg-cf-AZq" kind="show" identifier="gameOverSegue" id="Sqf-dE-u3h"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-97" y="19"/>
+        </scene>
+        <!--Game Over View Controller-->
+        <scene sceneID="sp5-An-Ysk">
+            <objects>
+                <viewController id="Pwg-cf-AZq" customClass="GameOverViewController" customModule="Coin_Hunt" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bmD-Pj-mZG">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
