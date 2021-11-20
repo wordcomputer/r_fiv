@@ -45,3 +45,33 @@
       <xfov>39.5978</xfov>
       <znear>0.1</znear>
       <zfar>100</zfar>
+     </perspective>
+    </technique_common>
+   </optics>
+  </camera>
+ </library_cameras>
+ <library_materials>
+  <material id="Yellow-material" name="Yellow">
+   <instance_effect url="#effect_Yellow-material"/>
+  </material>
+  <material id="material7">
+   <instance_effect url="#effect_material7"/>
+  </material>
+  <material id="Gold-material" name="Gold">
+   <instance_effect url="#effect_Gold-material"/>
+  </material>
+ </library_materials>
+ <library_effects>
+  <effect id="effect_Yellow-material">
+   <profile_COMMON>
+    <technique sid="common">
+     <lambert>
+      <diffuse>
+       <color>1 0.964686 0 1</color>
+      </diffuse>
+      <transparency>
+       <float>1</float>
+      </transparency>
+      <index_of_refraction>
+       <float>1</float>
+      </index_of_refraction>
