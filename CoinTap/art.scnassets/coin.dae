@@ -117,3 +117,21 @@
       </diffuse>
       <transparency>
        <float>1</float>
+      </transparency>
+      <index_of_refraction>
+       <float>1</float>
+      </index_of_refraction>
+     </lambert>
+    </technique>
+   </profile_COMMON>
+   <extra>
+    <technique profile="SceneKit">
+     <litPerPixel>1</litPerPixel>
+     <ambient_diffuse_lock>0</ambient_diffuse_lock>
+    </technique>
+   </extra>
+  </effect>
+ </library_effects>
+ <library_geometries>
+  <geometry id="geometry8" name="Cylinder">
+   <mesh>
