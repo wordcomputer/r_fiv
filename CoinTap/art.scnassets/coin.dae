@@ -100,3 +100,20 @@
       </index_of_refraction>
      </blinn>
     </technique>
+   </profile_COMMON>
+   <extra>
+    <technique profile="SceneKit">
+     <litPerPixel>1</litPerPixel>
+     <ambient_diffuse_lock>1</ambient_diffuse_lock>
+    </technique>
+   </extra>
+  </effect>
+  <effect id="effect_Gold-material">
+   <profile_COMMON>
+    <technique sid="common">
+     <lambert>
+      <diffuse>
+       <color>1 0.964686 0 1</color>
+      </diffuse>
+      <transparency>
+       <float>1</float>
