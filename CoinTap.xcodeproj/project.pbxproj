@@ -21,3 +21,32 @@
 		47AA299E2330ECF300A19655 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47AA299C2330ECF300A19655 /* Main.storyboard */; };
 		47AA29A02330ECF300A19655 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47AA299F2330ECF300A19655 /* Assets.xcassets */; };
 		47AA29A32330ECF300A19655 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47AA29A12330ECF300A19655 /* LaunchScreen.storyboard */; };
+		47AA29AE2330ECF300A19655 /* CoinTapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AA29AD2330ECF300A19655 /* CoinTapTests.swift */; };
+		47AA29B92330ECF300A19655 /* CoinTapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AA29B82330ECF300A19655 /* CoinTapUITests.swift */; };
+		47AA29CA2330EEA400A19655 /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AA29C92330EEA400A19655 /* Coin.swift */; };
+		47AA29CE2332081800A19655 /* CoinSpawner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AA29CD2332081800A19655 /* CoinSpawner.swift */; };
+		47AA29D02332162400A19655 /* HitController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AA29CF2332162400A19655 /* HitController.swift */; };
+		47AA29D223323E1900A19655 /* coin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 47AA29D123323E1900A19655 /* coin.mp3 */; };
+		47AA29D4233243C500A19655 /* MusicPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AA29D3233243C500A19655 /* MusicPlayer.swift */; };
+		47AA29D62332517C00A19655 /* custom.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 47AA29D52332517C00A19655 /* custom.TTF */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		47AA29AA2330ECF300A19655 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47AA298B2330ECF200A19655 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47AA29922330ECF300A19655;
+			remoteInfo = CoinTap;
+		};
+		47AA29B52330ECF300A19655 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47AA298B2330ECF200A19655 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47AA29922330ECF300A19655;
+			remoteInfo = CoinTap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4724FDD023336B1E0080A47F /* TimerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerController.swift; sourceTree = "<group>"; };
