@@ -1,0 +1,23 @@
+
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4724FDD123336B1E0080A47F /* TimerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4724FDD023336B1E0080A47F /* TimerController.swift */; };
+		4724FDD3233370F60080A47F /* FaceIDController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4724FDD2233370F60080A47F /* FaceIDController.swift */; };
+		4724FDD8233376880080A47F /* GameOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4724FDD7233376880080A47F /* GameOverViewController.swift */; };
+		4724FDDA233389850080A47F /* Pedometer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4724FDD9233389850080A47F /* Pedometer.swift */; };
+		4724FDDD23338D0D0080A47F /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4724FDDC23338D0D0080A47F /* HealthKit.framework */; };
+		4724FDE223338E0B0080A47F /* HealthKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4724FDE123338E0B0080A47F /* HealthKit.swift */; };
+		479339442341CC70003B756F /* MultiplayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479339432341CC70003B756F /* MultiplayerController.swift */; };
+		47AA29972330ECF300A19655 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AA29962330ECF300A19655 /* AppDelegate.swift */; };
+		47AA29992330ECF300A19655 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 47AA29982330ECF300A19655 /* art.scnassets */; };
+		47AA299B2330ECF300A19655 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AA299A2330ECF300A19655 /* ViewController.swift */; };
+		47AA299E2330ECF300A19655 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47AA299C2330ECF300A19655 /* Main.storyboard */; };
+		47AA29A02330ECF300A19655 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47AA299F2330ECF300A19655 /* Assets.xcassets */; };
+		47AA29A32330ECF300A19655 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47AA29A12330ECF300A19655 /* LaunchScreen.storyboard */; };

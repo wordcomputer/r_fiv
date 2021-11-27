@@ -208,3 +208,8 @@
     <instance_camera url="#Camera-camera"/>
    </node>
   </visual_scene>
+ </library_visual_scenes>
+ <scene>
+  <instance_visual_scene url="#scene18"/>
+ </scene>
+</COLLADA>
