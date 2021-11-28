@@ -50,3 +50,30 @@
 
 /* Begin PBXFileReference section */
 		4724FDD023336B1E0080A47F /* TimerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerController.swift; sourceTree = "<group>"; };
+		4724FDD2233370F60080A47F /* FaceIDController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceIDController.swift; sourceTree = "<group>"; };
+		4724FDD7233376880080A47F /* GameOverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverViewController.swift; sourceTree = "<group>"; };
+		4724FDD9233389850080A47F /* Pedometer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pedometer.swift; sourceTree = "<group>"; };
+		4724FDDC23338D0D0080A47F /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		4724FDDE23338D0D0080A47F /* CoinTap.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CoinTap.entitlements; sourceTree = "<group>"; };
+		4724FDE123338E0B0080A47F /* HealthKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKit.swift; sourceTree = "<group>"; };
+		479339432341CC70003B756F /* MultiplayerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplayerController.swift; sourceTree = "<group>"; };
+		47AA29932330ECF300A19655 /* Coin Hunt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coin Hunt.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47AA29962330ECF300A19655 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		47AA29982330ECF300A19655 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		47AA299A2330ECF300A19655 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		47AA299D2330ECF300A19655 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		47AA299F2330ECF300A19655 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		47AA29A22330ECF300A19655 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		47AA29A42330ECF300A19655 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47AA29A92330ECF300A19655 /* CoinTapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoinTapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47AA29AD2330ECF300A19655 /* CoinTapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinTapTests.swift; sourceTree = "<group>"; };
+		47AA29AF2330ECF300A19655 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47AA29B42330ECF300A19655 /* CoinTapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoinTapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47AA29B82330ECF300A19655 /* CoinTapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinTapUITests.swift; sourceTree = "<group>"; };
+		47AA29BA2330ECF300A19655 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47AA29C92330EEA400A19655 /* Coin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coin.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		47AA29CD2332081800A19655 /* CoinSpawner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinSpawner.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		47AA29CF2332162400A19655 /* HitController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HitController.swift; sourceTree = "<group>"; };
+		47AA29D123323E1900A19655 /* coin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = coin.mp3; sourceTree = "<group>"; };
+		47AA29D3233243C500A19655 /* MusicPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicPlayer.swift; sourceTree = "<group>"; };
+		47AA29D52332517C00A19655 /* custom.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = custom.TTF; sourceTree = "<group>"; };
