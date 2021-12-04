@@ -101,3 +101,22 @@
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4724FDDB23338D0D0080A47F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4724FDDC23338D0D0080A47F /* HealthKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		476C4EB8233252ED00FBB893 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				47AA29D52332517C00A19655 /* custom.TTF */,
+				47AA29D123323E1900A19655 /* coin.mp3 */,
+			);
+			path = Resources;
