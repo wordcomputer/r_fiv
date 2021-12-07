@@ -120,3 +120,27 @@
 				47AA29D123323E1900A19655 /* coin.mp3 */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		47AA298A2330ECF200A19655 = {
+			isa = PBXGroup;
+			children = (
+				47AA29952330ECF300A19655 /* CoinTap */,
+				47AA29AC2330ECF300A19655 /* CoinTapTests */,
+				47AA29B72330ECF300A19655 /* CoinTapUITests */,
+				47AA29942330ECF300A19655 /* Products */,
+				4724FDDB23338D0D0080A47F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		47AA29942330ECF300A19655 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47AA29932330ECF300A19655 /* Coin Hunt.app */,
+				47AA29A92330ECF300A19655 /* CoinTapTests.xctest */,
+				47AA29B42330ECF300A19655 /* CoinTapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47AA29952330ECF300A19655 /* CoinTap */ = {
