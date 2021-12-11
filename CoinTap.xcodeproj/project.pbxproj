@@ -144,3 +144,25 @@
 			sourceTree = "<group>";
 		};
 		47AA29952330ECF300A19655 /* CoinTap */ = {
+			isa = PBXGroup;
+			children = (
+				4724FDDE23338D0D0080A47F /* CoinTap.entitlements */,
+				476C4EB8233252ED00FBB893 /* Resources */,
+				47AA29C72330ED2D00A19655 /* View */,
+				47AA29C82330ED3600A19655 /* Controller */,
+				47AA29C62330ED1C00A19655 /* Model */,
+				47AA29982330ECF300A19655 /* art.scnassets */,
+				47AA299F2330ECF300A19655 /* Assets.xcassets */,
+				47AA29A42330ECF300A19655 /* Info.plist */,
+			);
+			path = CoinTap;
+			sourceTree = "<group>";
+		};
+		47AA29AC2330ECF300A19655 /* CoinTapTests */ = {
+			isa = PBXGroup;
+			children = (
+				47AA29AD2330ECF300A19655 /* CoinTapTests.swift */,
+				47AA29AF2330ECF300A19655 /* Info.plist */,
+			);
+			path = CoinTapTests;
+			sourceTree = "<group>";
