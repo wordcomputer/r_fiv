@@ -268,3 +268,29 @@
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47AA298B2330ECF200A19655 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Mentimun Mulus";
+				TargetAttributes = {
+					47AA29922330ECF300A19655 = {
+						CreatedOnToolsVersion = 10.3;
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
+					};
+					47AA29A82330ECF300A19655 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 47AA29922330ECF300A19655;
+					};
+					47AA29B32330ECF300A19655 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 47AA29922330ECF300A19655;
+					};
+				};
