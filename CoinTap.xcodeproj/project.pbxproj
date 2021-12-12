@@ -166,3 +166,30 @@
 			);
 			path = CoinTapTests;
 			sourceTree = "<group>";
+		};
+		47AA29B72330ECF300A19655 /* CoinTapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				47AA29B82330ECF300A19655 /* CoinTapUITests.swift */,
+				47AA29BA2330ECF300A19655 /* Info.plist */,
+			);
+			path = CoinTapUITests;
+			sourceTree = "<group>";
+		};
+		47AA29C62330ED1C00A19655 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				47AA29D3233243C500A19655 /* MusicPlayer.swift */,
+				47AA29962330ECF300A19655 /* AppDelegate.swift */,
+				47AA29C92330EEA400A19655 /* Coin.swift */,
+				47AA29CD2332081800A19655 /* CoinSpawner.swift */,
+				4724FDD9233389850080A47F /* Pedometer.swift */,
+				4724FDE123338E0B0080A47F /* HealthKit.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		47AA29C72330ED2D00A19655 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				47AA29A12330ECF300A19655 /* LaunchScreen.storyboard */,
