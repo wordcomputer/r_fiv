@@ -244,3 +244,27 @@
 			dependencies = (
 				47AA29AB2330ECF300A19655 /* PBXTargetDependency */,
 			);
+			name = CoinTapTests;
+			productName = CoinTapTests;
+			productReference = 47AA29A92330ECF300A19655 /* CoinTapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		47AA29B32330ECF300A19655 /* CoinTapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47AA29C32330ECF300A19655 /* Build configuration list for PBXNativeTarget "CoinTapUITests" */;
+			buildPhases = (
+				47AA29B02330ECF300A19655 /* Sources */,
+				47AA29B12330ECF300A19655 /* Frameworks */,
+				47AA29B22330ECF300A19655 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47AA29B62330ECF300A19655 /* PBXTargetDependency */,
+			);
+			name = CoinTapUITests;
+			productName = CoinTapUITests;
+			productReference = 47AA29B42330ECF300A19655 /* CoinTapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
