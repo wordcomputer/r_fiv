@@ -193,3 +193,32 @@
 			isa = PBXGroup;
 			children = (
 				47AA29A12330ECF300A19655 /* LaunchScreen.storyboard */,
+				47AA299C2330ECF300A19655 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		47AA29C82330ED3600A19655 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				47AA299A2330ECF300A19655 /* ViewController.swift */,
+				47AA29CF2332162400A19655 /* HitController.swift */,
+				4724FDD023336B1E0080A47F /* TimerController.swift */,
+				4724FDD7233376880080A47F /* GameOverViewController.swift */,
+				4724FDD2233370F60080A47F /* FaceIDController.swift */,
+				479339432341CC70003B756F /* MultiplayerController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47AA29922330ECF300A19655 /* CoinTap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47AA29BD2330ECF300A19655 /* Build configuration list for PBXNativeTarget "CoinTap" */;
+			buildPhases = (
+				47AA298F2330ECF300A19655 /* Sources */,
+				47AA29902330ECF300A19655 /* Frameworks */,
+				47AA29912330ECF300A19655 /* Resources */,
+			);
