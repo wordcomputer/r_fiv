@@ -222,3 +222,25 @@
 				47AA29902330ECF300A19655 /* Frameworks */,
 				47AA29912330ECF300A19655 /* Resources */,
 			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoinTap;
+			productName = CoinTap;
+			productReference = 47AA29932330ECF300A19655 /* Coin Hunt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		47AA29A82330ECF300A19655 /* CoinTapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47AA29C02330ECF300A19655 /* Build configuration list for PBXNativeTarget "CoinTapTests" */;
+			buildPhases = (
+				47AA29A52330ECF300A19655 /* Sources */,
+				47AA29A62330ECF300A19655 /* Frameworks */,
+				47AA29A72330ECF300A19655 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47AA29AB2330ECF300A19655 /* PBXTargetDependency */,
+			);
