@@ -364,3 +364,31 @@
 				47AA29972330ECF300A19655 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47AA29A52330ECF300A19655 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47AA29AE2330ECF300A19655 /* CoinTapTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47AA29B02330ECF300A19655 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47AA29B92330ECF300A19655 /* CoinTapUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		47AA29AB2330ECF300A19655 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47AA29922330ECF300A19655 /* CoinTap */;
+			targetProxy = 47AA29AA2330ECF300A19655 /* PBXContainerItemProxy */;
+		};
+		47AA29B62330ECF300A19655 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47AA29922330ECF300A19655 /* CoinTap */;
