@@ -319,3 +319,26 @@
 		47AA29912330ECF300A19655 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
+			files = (
+				47AA29992330ECF300A19655 /* art.scnassets in Resources */,
+				47AA29D62332517C00A19655 /* custom.TTF in Resources */,
+				47AA29D223323E1900A19655 /* coin.mp3 in Resources */,
+				47AA29A32330ECF300A19655 /* LaunchScreen.storyboard in Resources */,
+				47AA29A02330ECF300A19655 /* Assets.xcassets in Resources */,
+				47AA299E2330ECF300A19655 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47AA29A72330ECF300A19655 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47AA29B22330ECF300A19655 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
