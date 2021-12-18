@@ -342,3 +342,25 @@
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47AA298F2330ECF300A19655 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				479339442341CC70003B756F /* MultiplayerController.swift in Sources */,
+				4724FDE223338E0B0080A47F /* HealthKit.swift in Sources */,
+				47AA29CA2330EEA400A19655 /* Coin.swift in Sources */,
+				4724FDDA233389850080A47F /* Pedometer.swift in Sources */,
+				47AA29CE2332081800A19655 /* CoinSpawner.swift in Sources */,
+				4724FDD3233370F60080A47F /* FaceIDController.swift in Sources */,
+				47AA29D4233243C500A19655 /* MusicPlayer.swift in Sources */,
+				4724FDD8233376880080A47F /* GameOverViewController.swift in Sources */,
+				47AA29D02332162400A19655 /* HitController.swift in Sources */,
+				47AA299B2330ECF300A19655 /* ViewController.swift in Sources */,
+				4724FDD123336B1E0080A47F /* TimerController.swift in Sources */,
+				47AA29972330ECF300A19655 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
