@@ -392,3 +392,23 @@
 		47AA29B62330ECF300A19655 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 47AA29922330ECF300A19655 /* CoinTap */;
+			targetProxy = 47AA29B52330ECF300A19655 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		47AA299C2330ECF300A19655 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47AA299D2330ECF300A19655 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		47AA29A12330ECF300A19655 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47AA29A22330ECF300A19655 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
