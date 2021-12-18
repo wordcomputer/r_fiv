@@ -294,3 +294,28 @@
 						TestTargetID = 47AA29922330ECF300A19655;
 					};
 				};
+			};
+			buildConfigurationList = 47AA298E2330ECF300A19655 /* Build configuration list for PBXProject "CoinTap" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 47AA298A2330ECF200A19655;
+			productRefGroup = 47AA29942330ECF300A19655 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47AA29922330ECF300A19655 /* CoinTap */,
+				47AA29A82330ECF300A19655 /* CoinTapTests */,
+				47AA29B32330ECF300A19655 /* CoinTapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47AA29912330ECF300A19655 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
