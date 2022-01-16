@@ -672,3 +672,26 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		47AA29C02330ECF300A19655 /* Build configuration list for PBXNativeTarget "CoinTapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47AA29C12330ECF300A19655 /* Debug */,
+				47AA29C22330ECF300A19655 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47AA29C32330ECF300A19655 /* Build configuration list for PBXNativeTarget "CoinTapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47AA29C42330ECF300A19655 /* Debug */,
+				47AA29C52330ECF300A19655 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47AA298B2330ECF200A19655 /* Project object */;
+}
