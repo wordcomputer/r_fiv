@@ -651,3 +651,24 @@
 				TEST_TARGET_NAME = CoinTap;
 			};
 			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47AA298E2330ECF300A19655 /* Build configuration list for PBXProject "CoinTap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47AA29BB2330ECF300A19655 /* Debug */,
+				47AA29BC2330ECF300A19655 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47AA29BD2330ECF300A19655 /* Build configuration list for PBXNativeTarget "CoinTap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47AA29BE2330ECF300A19655 /* Debug */,
+				47AA29BF2330ECF300A19655 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
