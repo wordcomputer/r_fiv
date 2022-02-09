@@ -2,4 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:CoinTap.xcodeproj"
+      location = "self:CoinTap.xcodeproj">
+   </FileRef>
+</Wor
