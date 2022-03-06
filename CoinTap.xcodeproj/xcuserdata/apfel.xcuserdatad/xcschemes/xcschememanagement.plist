@@ -14,4 +14,6 @@
 	<dict>
 		<key>47AA29922330ECF300A19655</key>
 		<dict>
-			<key>primary</k
+			<key>primary</key>
+			<true/>
+		</dict>
