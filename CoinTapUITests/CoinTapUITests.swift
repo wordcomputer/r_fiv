@@ -8,4 +8,6 @@
 
 import XCTest
 
-class CoinTapU
+class CoinTapUITests: XCTestCase {
+
+    o
