@@ -6,4 +6,6 @@
 //  Copyright © 2019 Mentimun Mulus. All rights reserved.
 //
 
-i
+import XCTest
+
+class CoinTapU
