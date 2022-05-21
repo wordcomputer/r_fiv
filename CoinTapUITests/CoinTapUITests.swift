@@ -10,4 +10,5 @@ import XCTest
 
 class CoinTapUITests: XCTestCase {
 
-    o
+    override func setUp() {
+  
