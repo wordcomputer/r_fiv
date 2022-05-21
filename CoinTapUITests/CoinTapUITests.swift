@@ -11,4 +11,4 @@ import XCTest
 class CoinTapUITests: XCTestCase {
 
     override func setUp() {
-  
+        // Put setup 
