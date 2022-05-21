@@ -11,4 +11,4 @@ import XCTest
 class CoinTapUITests: XCTestCase {
 
     override func setUp() {
-        // Put setup code here. This metho
+        // Put setup code here. This method is called before the i
