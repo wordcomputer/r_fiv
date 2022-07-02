@@ -23,4 +23,4 @@ class CoinTapUITests: XCTestCase {
     }
 
     override func tearDown() {
-        // Put teardown code here.
+        // Put teardown code here. This method is called
