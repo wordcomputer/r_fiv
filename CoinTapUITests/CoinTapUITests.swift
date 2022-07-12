@@ -27,4 +27,5 @@ class CoinTapUITests: XCTestCase {
     }
 
     func testExample() {
-        // Use recording to get star
+        // Use recording to get started writing UI tests.
+   
