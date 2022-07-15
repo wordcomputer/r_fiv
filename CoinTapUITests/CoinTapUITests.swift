@@ -28,4 +28,4 @@ class CoinTapUITests: XCTestCase {
 
     func testExample() {
         // Use recording to get started writing UI tests.
-        // Use XCTAssert and 
+        // Use XCTAssert and related functions to veri
